@@ -13,8 +13,10 @@
   const phone = "213771021391";
   const messages = {
     general: "Bonjour, j’ai vu votre portfolio et je souhaite discuter d’un site web pour mon activité.\n\nMon activité :\nVille :\nInstagram/Facebook :\nObjectif du site :",
-    project: "Bonjour, j’ai vu votre portfolio et je souhaite discuter de mon projet de site web.\n\nMon activité :\nVille :\nInstagram/Facebook :\nObjectif du site :",
-    qualification: "Bonjour Saber, j’ai vu votre portfolio et je souhaite discuter d’un site web pour mon activité.\n\nMon activité :\nVille :\nInstagram/Facebook :\nObjectif du site :"
+    project: "Bonjour, j’ai vu votre portfolio et je souhaite discuter de mon projet de site web.\n\nMon activité :\nVille :\nInstagram/Facebook :\nObjectif du site :\nFormule envisagée :",
+    essential: "Bonjour Saber, j’ai vu l’offre Essentiel à 25 000 DA.\n\nMon activité :\nVille :\nInstagram/Facebook :\nObjectif du site :",
+    premium: "Bonjour Saber, j’ai vu l’offre Premium Local à 55 000 DA.\n\nMon activité :\nVille :\nInstagram/Facebook :\nObjectif du site :",
+    qualification: "Bonjour Saber, j’ai vu votre portfolio et je souhaite discuter d’un site web pour mon activité.\n\nMon activité :\nVille :\nInstagram/Facebook :\nObjectif du site :\nFormule envisagée :"
   };
 
   document.querySelectorAll("[data-whatsapp]").forEach((link) => {
