@@ -18,3 +18,19 @@ Vérifiez les coordonnées de contact avant publication.
 Le site utilise Google Fonts en option ; en cas d'absence de réseau, les polices système prennent le relais.
 Important
 Cette version ne contient aucun lien ni visuel de I Smile Dental Clinic. Les noms et identités des quatre activités servant de base aux concepts ont été neutralisés. Ne réintroduisez pas leurs logos, captures identifiantes ou liens de démonstration sans autorisation.
+Images used by the updated portfolio
+The updated index.html expects these existing repository paths:
+images/hero-bg.jpg
+images/profile.webp
+images/hamiaphone.webp
+images/yoka.webp
+images/rogers.webp
+images/mazen.webp
+projects/arc161/images/hero.jpg
+Keep these files and folder paths unchanged. The dental demo image is intentionally not used.
+Demo destinations
+Hamiaphone: https://gategith.github.io/hamiaphone-pro/
+YOKA TECH: https://gategith.github.io/YOKA-TECH/
+Rogers Phone: https://gategith.github.io/Rogers-Phone/
+Mazen Accessoires: https://gategith.github.io/mazen-accessoires/
+ARC161: https://gategith.github.io/arc161-landing-page/
