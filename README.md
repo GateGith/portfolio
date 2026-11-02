@@ -34,3 +34,9 @@ YOKA TECH: https://gategith.github.io/YOKA-TECH/
 Rogers Phone: https://gategith.github.io/Rogers-Phone/
 Mazen Accessoires: https://gategith.github.io/mazen-accessoires/
 ARC161: https://gategith.github.io/arc161-landing-page/
+Brand assets — upload these exact paths
+Upload the three PNG files inside the repository's root images/ folder:
+images/brand-mark.png — used beside the name in the header and footer.
+images/favicon.png — browser tab icon and mobile home-screen icon.
+images/brand-horizontal.png — optional full horizontal logo for social profiles or documents; not used as the small header icon.
+The updated HTML already references images/brand-mark.png and images/favicon.png. Do not rename the files.
