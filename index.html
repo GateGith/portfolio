@@ -1,383 +1,207 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Sites web professionnels pour cliniques, centres privés et entreprises locales en Algérie. Design sur mesure, mobile-first et contact direct par WhatsApp ou téléphone.">
-  <meta name="theme-color" content="#08090d">
-  <meta property="og:title" content="Saber. — Sites web professionnels pour entreprises locales">
-  <meta property="og:description" content="Des sites web clairs, crédibles et orientés contact pour les entreprises locales en Algérie.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#09090f">
+  <meta name="description" content="Saber Slifi conçoit des sites web professionnels, rapides et adaptés au mobile pour les entreprises et activités locales.">
+  <meta property="og:title" content="Saber Slifi — Sites web professionnels">
+  <meta property="og:description" content="Une présence digitale claire, crédible et pensée pour faciliter le contact.">
   <meta property="og:type" content="website">
-  <title>Saber. — Sites web professionnels pour entreprises locales</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>Saber Slifi — Sites web professionnels</title>
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <div id="scroll-progress" aria-hidden="true"></div>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Saber Slifi, accueil">
+        <span class="brand-mark">S<span>.</span></span>
+        <span class="brand-copy"><strong>SABER SLIFI</strong><small>WEB DESIGN & DIGITAL</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+        <a href="#projets">Projets</a>
+        <a href="#services">Services</a>
+        <a href="#methode">Méthode</a>
+        <a href="#tarifs">Tarifs</a>
+        <a class="nav-contact" href="#contact">Parlons de votre projet <span>↗</span></a>
+      </nav>
+    </header>
 
-  <header class="site-header">
-    <nav class="navbar container" aria-label="Navigation principale">
-      <a class="logo" href="#top" aria-label="Saber — accueil">Saber<span>.</span></a>
-      <div class="nav-links">
-        <a href="#work">Projets</a>
-        <a href="#offer">Offre</a>
-        <a href="#process">Process</a>
-        <a href="#about">À propos</a>
-        <a class="nav-cta" data-whatsapp="general" href="https://wa.me/213771021391" target="_blank" rel="noopener">Parler sur WhatsApp</a>
-      </div>
-    </nav>
-  </header>
-
-  <main id="top">
-    <!-- HERO -->
-    <section class="hero container">
-      <div class="hero-copy">
-        <span class="eyebrow"><i class="fa-solid fa-location-dot"></i> Web design pour entreprises locales · Algérie</span>
-        <h1>Votre activité mérite un site qui inspire confiance <em>et facilite le contact.</em></h1>
-        <p class="hero-lead">Je conçois des sites web professionnels pour les <strong>cliniques, centres privés et entreprises locales</strong> qui veulent présenter clairement leur activité et donner à leurs clients une raison simple de passer à l'action.</p>
-
-        
-<div class="hero-actions">
-  <a class="btn primary" href="#i-smile-case-study">
-    Voir un projet de démonstration
-    <i class="fa-solid fa-arrow-down"></i>
-  </a>
-  <a class="btn secondary" data-whatsapp="general" href="https://wa.me/213771021391" target="_blank" rel="noopener">
-    <i class="fa-brands fa-whatsapp"></i> Parler de mon activité
-  </a>
-</div>
-
-<div class="hero-proof" aria-label="Points forts">
-  <span><i class="fa-solid fa-check"></i> Design sur mesure</span>
-  <span><i class="fa-solid fa-check"></i> Pensé mobile-first</span>
-  <span><i class="fa-solid fa-check"></i> WhatsApp · Appel · Localisation</span>
-</div>
-
-<div class="hero-visual" aria-label="Aperçu d'un projet de démonstration">
-  <div class="browser browser-real">
-    <div class="browser-top">
-      <span class="browser-dot"></span><span class="browser-dot"></span><span class="browser-dot"></span>
-      <span class="browser-url">Exemple de site vitrine</span>
-      <span class="browser-live"><i class="fa-solid fa-circle"></i> Démo</span>
-    </div>
-    <div class="browser-screen real-screen">
-      <img src="images/dental-demo.jpg" alt="Aperçu du projet de démonstration" loading="eager">
-    </div>
-  </div>
-  <div class="visual-proof">
-    <span><i class="fa-solid fa-circle-check"></i> Projet de démonstration</span>
-    <span>Site vitrine · Mobile-first</span>
-  </div>
-</div>
-    </section>
-
-    <section class="proof-strip container" aria-label="Ce que le site doit accomplir">
-      <div><strong>Comprendre</strong><span>Le visiteur sait rapidement ce que vous faites.</span></div>
-      <div><strong>Faire confiance</strong><span>Une image cohérente avec le niveau de votre activité.</span></div>
-      <div><strong>Contacter</strong><span>WhatsApp, appel et itinéraire au bon moment.</span></div>
-    </section>
-
-    <!-- WORK / CASE STUDY -->
-
-<section class="section container" id="work">
-  <div class="section-heading">
-    <span class="section-label">01 — Projet de démonstration</span>
-    <h2>Un exemple concret de mon approche.</h2>
-    <p>Découvrez comment je conçois un site vitrine : structure claire, présentation des services et parcours pensé pour faciliter le contact depuis un téléphone.</p>
-  </div>
-
-  <article class="case-study" id="i-smile-case-study">
-    <div class="case-study-media">
-      <img src="images/dental-demo.jpg" alt="Aperçu du projet de démonstration" loading="lazy">
-      <span class="case-badge"><i class="fa-solid fa-layer-group"></i> Projet de démonstration</span>
-    </div>
-
-    <div class="case-study-content">
-      <span class="case-study-kicker">Site vitrine · Santé · Démonstration</span>
-      <h3>Projet de site pour une clinique</h3>
-      <p>Un concept de site vitrine conçu pour illustrer une présentation professionnelle des services, une navigation claire et un accès simple aux informations de contact.</p>
-
-      <div class="deliverables-heading">
-        <i class="fa-solid fa-layer-group"></i> Éléments présentés
-      </div>
-
-      <div class="case-points">
-        <span><i class="fa-solid fa-check"></i> Structure de site vitrine</span>
-        <span><i class="fa-solid fa-check"></i> Présentation des services</span>
-        <span><i class="fa-solid fa-check"></i> Navigation claire</span>
-        <span><i class="fa-solid fa-check"></i> Parcours mobile-first</span>
-        <span><i class="fa-solid fa-check"></i> Points de contact visibles</span>
-        <span><i class="fa-solid fa-check"></i> Hiérarchie visuelle</span>
-      </div>
-
-      <div class="case-study-results">
-        <div class="case-study-result">
-          <strong>Objectif</strong>
-          <span>Présenter l'activité de façon claire.</span>
-        </div>
-        <div class="case-study-result">
-          <strong>Priorité</strong>
-          <span>Faciliter la navigation et le contact.</span>
-        </div>
-        <div class="case-study-result">
-          <strong>Approche</strong>
-          <span>Clarté, lisibilité et adaptation mobile.</span>
-        </div>
-      </div>
-
-      <div class="hero-actions">
-        <a class="btn primary" href="#contact">
-          Créer mon site
-          <i class="fa-solid fa-arrow-right"></i>
-        </a>
-        <a class="btn secondary" data-whatsapp="general" href="https://wa.me/213771021391" target="_blank" rel="noopener">
-          <i class="fa-brands fa-whatsapp"></i> Discuter de mon projet
-        </a>
-      </div>
-    </div>
-  </article>
-</section>
-
-      <div class="section-heading compact">
-        <span class="section-label">Projets sélectionnés</span>
-        <h3>D'autres projets</h3>
-        <p>Des univers différents, mais la même logique : rendre l'activité compréhensible et le contact simple.</p>
-      </div>
-
-      <div class="projects-grid">
-        <a href="https://gategith.github.io/hamiaphone-pro/" target="_blank" rel="noopener" class="project-card">
-          <div class="project-image"><img src="images/hamiaphone.webp" alt="Hamiaphone — site de réparation de téléphones" loading="lazy"><span class="project-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
-          <div class="project-info"><span class="project-rank">01 · Local Business</span><h3>Hamiaphone</h3><p>Services, localisation et contact WhatsApp.</p></div>
-        </a>
-        <a href="https://gategith.github.io/YOKA-TECH/" target="_blank" rel="noopener" class="project-card">
-          <div class="project-image"><img src="images/yoka.webp" alt="YOKA TECH — site pour activité technologique" loading="lazy"><span class="project-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
-          <div class="project-info"><span class="project-rank">02 · Business / Tech</span><h3>YOKA TECH</h3><p>Présence digitale structurée pour plusieurs offres.</p></div>
-        </a>
-        <a href="https://gategith.github.io/mazen-accessoires/" target="_blank" rel="noopener" class="project-card">
-          <div class="project-image"><img src="images/mazen.webp" alt="Mazen Accessoires — boutique locale" loading="lazy"><span class="project-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
-          <div class="project-info"><span class="project-rank">03 · Retail</span><h3>Mazen Accessoires</h3><p>Présentation produit et identité plus professionnelle.</p></div>
-        </a>
-        <a href="https://gategith.github.io/Rogers-Phone/" target="_blank" rel="noopener" class="project-card">
-          <div class="project-image"><img src="images/rogers.webp" alt="Rogers Phone — présentation de smartphones" loading="lazy"><span class="project-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
-          <div class="project-info"><span class="project-rank">04 · Retail / Tech</span><h3>Rogers Phone</h3><p>Catalogue visuel simple et facile à parcourir.</p></div>
-        </a>
-        <a href="projects/arc161/" target="_blank" rel="noopener" class="project-card project-card-support">
-          <div class="project-image"><img src="projects/arc161/images/hero.jpg" alt="ARC161 — landing page santé" loading="lazy"><span class="project-arrow"><i class="fa-solid fa-arrow-up-right-from-square"></i></span></div>
-          <div class="project-info"><span class="project-rank">05 · Health / Landing</span><h3>ARC161</h3><p>Landing page santé centrée sur la clarté et la confiance.</p></div>
-        </a>
-
-      </div>
-    </section>
-
-    <!-- VALUE -->
-    <section class="section section-dark" id="why">
-      <div class="container">
-        <div class="section-heading">
-          <span class="section-label">02 — La vraie valeur</span>
-          <h2>Un site ne doit pas seulement être beau.</h2>
-          <p>Il doit aider quelqu'un qui vous découvre à comprendre, faire confiance et savoir quoi faire ensuite.</p>
-        </div>
-        <div class="value-grid">
-          <div class="value-card"><span>01</span><i class="fa-solid fa-shield-heart"></i><h3>Inspirer confiance</h3><p>Présentez votre activité, vos services et vos informations essentielles dans un espace professionnel qui vous appartient.</p></div>
-          <div class="value-card"><span>02</span><i class="fa-solid fa-comments"></i><h3>Faciliter le contact</h3><p>WhatsApp, appel, adresse et itinéraire sont visibles au moment où le visiteur est prêt à agir.</p></div>
-          <div class="value-card"><span>03</span><i class="fa-solid fa-route"></i><h3>Réduire l'hésitation</h3><p>Une structure claire évite les recherches inutiles et guide le visiteur vers la prochaine étape.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- OFFER -->
-    <section class="section container" id="offer">
-      <div class="section-heading">
-        <span class="section-label">03 — L'offre</span>
-        <h2>Tout ce qui est utile. Rien de compliqué pour le plaisir.</h2>
-        <p>Le site est construit autour de votre métier, de vos clients et de vos points de contact réels.</p>
-      </div>
-      <div class="offer-grid">
-        <div class="offer-card"><i class="fa-solid fa-pen-ruler"></i><h3>Design</h3><ul><li>Design sur mesure</li><li>Mobile-first</li><li>Hiérarchie visuelle claire</li><li>CTA orientés action</li></ul></div>
-        <div class="offer-card"><i class="fa-solid fa-comments"></i><h3>Contact</h3><ul><li>WhatsApp</li><li>Appel direct</li><li>Formulaire si nécessaire</li><li>CTA visibles</li></ul></div>
-        <div class="offer-card"><i class="fa-solid fa-location-dot"></i><h3>Local</h3><ul><li>Google Maps</li><li>Horaires</li><li>Adresse</li><li>Informations essentielles</li></ul></div>
-        <div class="offer-card"><i class="fa-solid fa-gauge-high"></i><h3>Technique</h3><ul><li>Responsive</li><li>SEO technique de base</li><li>Performance soignée</li><li>Mise en ligne selon formule</li></ul></div>
-      </div>
-
-      <div class="scope-box" aria-label="Périmètre du projet">
-        <div>
-          <strong><i class="fa-solid fa-circle-check"></i> Inclus dans le périmètre</strong>
-          <span>Le contenu fourni par le client, les pages et fonctionnalités convenues au démarrage, 2 séries de révisions et les tests responsive.</span>
-        </div>
-        <div>
-          <strong><i class="fa-solid fa-circle-minus"></i> Hors périmètre</strong>
-          <span>Fonctionnalités ajoutées après validation, e-commerce, espace membre, réservation complexe, rédaction complète ou modifications illimitées. Tout ajout est chiffré avant réalisation.</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- PROCESS -->
-    <section class="section section-soft" id="process">
-      <div class="container">
-        <div class="section-heading">
-          <span class="section-label">04 — Process</span>
-          <h2>Simple, cadré, sans aller-retour interminable.</h2>
-          <p>Le but est de faire avancer le projet, pas de multiplier les réunions et les modifications sans fin.</p>
-        </div>
-        <div class="process-grid">
-          <div class="process-step"><b>01</b><h3>On comprend votre activité</h3><p>Objectif, services, clientèle et informations essentielles.</p></div>
-          <div class="process-step"><b>02</b><h3>On structure le site</h3><p>Architecture adaptée à la façon dont vos clients cherchent l'information.</p></div>
-          <div class="process-step"><b>03</b><h3>Vous validez</h3><p>Deux séries de révisions sont incluses pour finaliser le projet.</p></div>
-          <div class="process-step"><b>04</b><h3>On construit & teste</h3><p>Développement, responsive, performance et vérifications.</p></div>
-          <div class="process-step"><b>05</b><h3>Mise en ligne</h3><p>Le solde est réglé avant la mise en ligne finale.</p></div>
-        </div>
-        <div class="process-note"><i class="fa-regular fa-clock"></i> Délai indicatif : <strong>7–10 jours ouvrables</strong> après réception de tous les contenus nécessaires.</div>
-      </div>
-    </section>
-
-    <!-- PRICE -->
-    <section class="section container" id="investment">
-      <div class="pricing-header">
-        <div class="section-heading">
-          <span class="section-label">05 — Investissement</span>
-          <h2>Choisissez le niveau de présence dont votre activité a besoin.</h2>
-          <p>Des formules lisibles, avec un périmètre défini avant le démarrage. Vous choisissez d'abord le niveau adapté à votre activité ; les besoins supplémentaires sont validés et chiffrés séparément.</p>
-        </div>
-        <div class="pricing-trust"><span><i class="fa-solid fa-check"></i> Prix affichés</span><span><i class="fa-solid fa-check"></i> Périmètre défini</span><span><i class="fa-solid fa-check"></i> 2 séries de révisions</span><span><i class="fa-solid fa-check"></i> 50% au démarrage</span></div>
-      </div>
-
-      <div class="pricing-grid">
-        <article class="pricing-card pricing-card-lite">
-          <span class="pricing-label">Essentiel</span>
-          <div class="price">25 000 <small>DA</small></div>
-          <p>Pour une activité locale qui veut une présence professionnelle simple et efficace.</p>
-          <ul>
-            <li>Page vitrine structurée</li>
-            <li>Design personnalisé</li>
-            <li>Mobile-first</li>
-            <li>WhatsApp & appel direct</li>
-            <li>Google Maps & informations locales</li>
-            <li>SEO technique de base</li>
-            <li>1 série de révisions</li>
-          </ul>
-          <a class="btn secondary full" data-whatsapp="essential" href="https://wa.me/213771021391" target="_blank" rel="noopener">Choisir Essentiel <i class="fa-brands fa-whatsapp"></i></a>
-          <div class="pricing-exclusions"><strong>Non inclus :</strong> pages supplémentaires, e-commerce, réservation complexe, rédaction complète et fonctionnalités hors périmètre.</div>
-        </article>
-
-        <article class="pricing-card pricing-card-featured">
-          <div class="pricing-popular"><i class="fa-solid fa-star"></i> Recommandé</div>
-          <span class="pricing-label">Business Pro</span>
-          <div class="price">35 000 <small>DA</small></div>
-          <p>Le meilleur équilibre pour une clinique, un centre privé ou une entreprise locale établie.</p>
-          <ul>
-            <li>Site vitrine complet</li>
-            <li>Design sur mesure & hiérarchie orientée action</li>
-            <li>Parcours mobile-first</li>
-            <li>Services & présentation de l'activité</li>
-            <li>WhatsApp & appel direct</li>
-            <li>Google Maps, horaires & informations locales</li>
-            <li>SEO technique de base & performance</li>
-            <li>2 séries de révisions</li>
-          </ul>
-          <a class="btn primary full" data-whatsapp="project" href="https://wa.me/213771021391" target="_blank" rel="noopener">Parler de mon projet <i class="fa-brands fa-whatsapp"></i></a>
-          <div class="pricing-exclusions"><strong>Non inclus :</strong> e-commerce, réservation complexe, espace membre, rédaction complète et demandes hors périmètre. Toute extension est validée et chiffrée avant réalisation.</div>
-        </article>
-
-        <article class="pricing-card pricing-card-premium">
-          <span class="pricing-label">Premium Local</span>
-          <div class="price">55 000 <small>DA</small></div>
-          <p>Pour une activité qui veut une présence plus riche, plus différenciante et prête à évoluer.</p>
-          <ul>
-            <li>Tout le contenu de Business Pro</li>
-            <li>Architecture plus riche & pages supplémentaires</li>
-            <li>Sections premium adaptées au secteur</li>
-            <li>Présentations plus détaillées des services</li>
-            <li>Parcours de conversion renforcé</li>
-            <li>Mise en ligne & configuration technique</li>
-            <li>SEO technique de base & performance</li>
-            <li>2 séries de révisions</li>
-          </ul>
-          <a class="btn secondary full" data-whatsapp="premium" href="https://wa.me/213771021391" target="_blank" rel="noopener">Discuter de Premium <i class="fa-brands fa-whatsapp"></i></a>
-          <div class="pricing-exclusions"><strong>Important :</strong> le nombre exact de pages et les fonctionnalités sont définis avant signature. Domaine et hébergement sont facturés séparément s'ils doivent être achetés.</div>
-        </article>
-      </div>
-
-      <div class="pricing-footer-note">
-        <i class="fa-solid fa-shield-halved"></i>
-        <span><strong>Conditions simples :</strong> 50% au démarrage · 50% avant la mise en ligne finale. Le délai indicatif est de 7–10 jours ouvrables après réception des contenus nécessaires.</span>
-      </div>
-    </section>
-
-    <!-- FIT -->
-    <section class="section section-dark" id="fit">
-      <div class="container fit-grid">
-        <div>
-          <span class="section-label">06 — Avec qui je travaille</span>
-          <h2>Le meilleur projet est celui où les deux côtés savent ce qu'ils veulent construire.</h2>
-          <p>Je travaille particulièrement bien avec les activités déjà en fonctionnement, avec des services clairs et une vraie volonté d'avoir une présence professionnelle.</p>
-        </div>
-        <div class="fit-list">
-          <div><i class="fa-solid fa-check"></i><span>Votre activité est déjà en fonctionnement.</span></div>
-          <div><i class="fa-solid fa-check"></i><span>Vos services sont clairement définis.</span></div>
-          <div><i class="fa-solid fa-check"></i><span>Vous souhaitez faciliter les contacts clients.</span></div>
-          <div><i class="fa-solid fa-check"></i><span>Vous pouvez fournir les informations nécessaires.</span></div>
-          <div><i class="fa-solid fa-check"></i><span>Vous êtes prêt à investir dans une présence professionnelle.</span></div>
-          <div class="not-fit"><i class="fa-solid fa-xmark"></i><span>Vous cherchez uniquement le prix le plus bas.</span></div>
-          <div class="not-fit"><i class="fa-solid fa-xmark"></i><span>Vous souhaitez des modifications illimitées hors périmètre.</span></div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT -->
-    <section class="section container" id="about">
-      <div class="about-grid">
-        <div class="about-image">
-          <div class="profile-wrapper" aria-label="Saber Slifi">
-            <img src="images/profile.webp" alt="Saber Slifi" loading="lazy">
-            <span class="profile-status" aria-hidden="true"></span>
+    <main id="top">
+      <section class="hero section-wrap">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="status-dot"></span> WEB DESIGN · ALGÉRIE</div>
+          <h1>Votre activité mérite une présence digitale <em>à la hauteur.</em></h1>
+          <p class="hero-lead">Je conçois des sites web professionnels qui présentent clairement votre activité, renforcent votre crédibilité et facilitent le passage à l’action.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projets">Découvrir les projets <span>↘</span></a>
+            <a class="text-link" href="https://wa.me/213771021391?text=Bonjour%20Saber%2C%20je%20souhaite%20discuter%20de%20mon%20projet%20web." target="_blank" rel="noopener">Discuter sur WhatsApp <span>↗</span></a>
+          </div>
+          <div class="hero-proof">
+            <div><span class="proof-icon">✳</span><span>Conçu pour le mobile</span></div>
+            <div><span class="proof-icon">↗</span><span>Contact simple et direct</span></div>
+            <div><span class="proof-icon">⌁</span><span>Structure claire</span></div>
           </div>
         </div>
-        <div class="about-copy">
-          <span class="section-label">07 — À propos</span>
-          <h2>Je préfère un site utile à un site qui essaie seulement d'impressionner.</h2>
-          <p>Je conçois des sites web légers, clairs et adaptés aux besoins réels des entreprises locales. L'objectif est simple : présenter votre activité professionnellement et rendre le contact évident.</p>
-          <div class="about-points">
-            <div><strong>Direct</strong><span>Pas de solution complexe quand une solution simple suffit.</span></div>
-            <div><strong>Clair</strong><span>Scope, révisions et conditions définis avant le démarrage.</span></div>
-            <div><strong>Business-focused</strong><span>Chaque élément doit avoir une utilité pour votre visiteur.</span></div>
+        <div class="hero-visual" aria-label="Aperçu graphique d'un site web sur ordinateur et mobile">
+          <div class="visual-glow"></div>
+          <div class="browser-card">
+            <div class="browser-top"><div class="browser-dots"><i></i><i></i><i></i></div><span>votre-activite.dz</span><b>•••</b></div>
+            <div class="mock-site">
+              <div class="mock-nav"><b>VOTRE MARQUE</b><span>Services　 À propos　 Contact</span></div>
+              <div class="mock-content">
+                <div class="mock-kicker">BIENVENUE CHEZ VOUS</div>
+                <div class="mock-heading">Une activité<br><i>qui inspire confiance.</i></div>
+                <div class="mock-line"></div><div class="mock-line short"></div>
+                <div class="mock-cta">Découvrir nos services　↗</div>
+                <div class="mock-orb"></div>
+              </div>
+              <div class="mock-bottom"><span>PRÉSENTATION</span><span>CONTACT</span><span>LOCALISATION</span></div>
+            </div>
+          </div>
+          <div class="phone-card">
+            <div class="phone-notch"></div>
+            <div class="phone-screen">
+              <div class="phone-mini-brand">VOTRE MARQUE</div>
+              <div class="phone-pill">BIENVENUE</div>
+              <div class="phone-title">Votre prochain<br><i>projet commence ici.</i></div>
+              <div class="phone-image"></div>
+              <div class="phone-action">Contacter maintenant ↗</div>
+              <div class="phone-lines"><i></i><i></i><i></i></div>
+            </div>
+          </div>
+          <div class="floating-note"><span>✦</span><div><b>Mobile-first</b><small>Chaque écran compte.</small></div></div>
+        </div>
+        <div class="hero-bottom"><span>INDÉPENDANT · CONCEPTION & DÉVELOPPEMENT WEB</span><a href="#projets">FAIRE DÉFILER ↓</a></div>
+      </section>
+
+      <section class="intro-band">
+        <div class="section-wrap intro-inner">
+          <p>UN SITE WEB N’EST PAS UNE DÉCORATION.</p>
+          <h2>C’est souvent le premier endroit où un futur client décide de <span>vous faire confiance.</span></h2>
+        </div>
+      </section>
+
+      <section class="section-wrap section-block" id="projets">
+        <div class="section-heading">
+          <div><div class="eyebrow">01 / SÉLECTION</div><h2>Des concepts.<br><em>Des univers différents.</em></h2></div>
+          <p>Une sélection de travaux exploratoires et d’un projet personnel, conçus pour montrer différentes approches de présentation digitale.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card project-wide">
+            <div class="project-preview preview-retail">
+              <div class="preview-top"><span>CONCEPT / 01</span><span>RETAIL</span></div>
+              <div class="retail-layout"><div><small>TECH & ACCESSOIRES</small><strong>Tout ce qu’il<br>vous faut.</strong><i>Explorer la sélection　↗</i></div><div class="retail-products"><b>01</b><b>02</b><b>03</b></div></div>
+              <div class="preview-footer"><span>CATALOGUE</span><span>SERVICES</span><span>CONTACT</span></div>
+            </div>
+            <div class="project-info"><div><span class="project-type">CONCEPT · COMMERCE LOCAL</span><h3>Retail & accessoires</h3></div><p>Une vitrine structurée pour présenter une offre, organiser les catégories et rendre le contact accessible.</p></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview preview-tech">
+              <div class="preview-top"><span>CONCEPT / 02</span><span>TECH</span></div>
+              <div class="tech-layout"><small>TECHNOLOGIE & GAMING</small><strong>Votre univers.<br><i>Votre expérience.</i></strong><div class="tech-blocks"><b></b><b></b><b></b></div><span class="tech-cta">DÉCOUVRIR ↗</span></div>
+            </div>
+            <div class="project-info"><div><span class="project-type">CONCEPT · TECHNOLOGIE</span><h3>Tech & gaming</h3></div><p>Clarifier plusieurs offres et guider le visiteur vers le bon point de contact.</p></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview preview-service">
+              <div class="preview-top"><span>CONCEPT / 03</span><span>SERVICE</span></div>
+              <div class="service-layout"><div class="service-circle">01</div><small>VENTE · RÉPARATION · CONSEIL</small><strong>Un service<br>qui vous accompagne.</strong><div class="service-lines"><i></i><i></i><i></i></div><span>PRENDRE CONTACT　↗</span></div>
+            </div>
+            <div class="project-info"><div><span class="project-type">CONCEPT · SERVICES</span><h3>Vente & réparation</h3></div><p>Mettre en avant les prestations, les informations pratiques et les moyens de contact.</p></div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-preview preview-boutique">
+              <div class="preview-top"><span>CONCEPT / 04</span><span>BOUTIQUE</span></div>
+              <div class="boutique-layout"><small>COLLECTION & DÉTAIL</small><strong>Le sens<br><i>du détail.</i></strong><div class="boutique-shapes"><b></b><b></b><b></b></div><span>VOIR LA COLLECTION ↗</span></div>
+            </div>
+            <div class="project-info"><div><span class="project-type">CONCEPT · RETAIL</span><h3>Accessoires & boutique</h3></div><p>Une présentation visuelle pensée pour valoriser les produits et faciliter la découverte.</p></div>
+          </article>
+
+          <article class="project-card project-personal">
+            <div class="project-preview preview-arc">
+              <div class="preview-top"><span>PROJET PERSONNEL / 05</span><span>LANDING PAGE</span></div>
+              <div class="arc-layout"><div class="arc-copy"><small>ARC161 · E-COMMERCE</small><strong>Une page.<br>Un message.<br><i>Une action.</i></strong><span>PRÉSENTATION PRODUIT　↗</span></div><div class="arc-product"><div class="arc-product-shape"></div></div></div>
+            </div>
+            <div class="project-info"><div><span class="project-type">PROJET PERSONNEL · LANDING PAGE</span><h3>ARC161</h3></div><p>Projet personnel : conception d’une page de présentation produit avec un parcours orienté vers la demande.</p><a class="project-link" href="https://gategith.github.io/portfolio/projects/arc161/" target="_blank" rel="noopener">Voir le projet <span>↗</span></a></div>
+          </article>
+        </div>
+        <p class="projects-note"><span>NOTE</span> Les quatre premiers visuels sont des concepts exploratoires. Ils ne représentent pas des missions client ni des résultats commerciaux. Les identités des activités ont été volontairement neutralisées.</p>
+      </section>
+
+      <section class="dark-section" id="services">
+        <div class="section-wrap section-block">
+          <div class="section-heading">
+            <div><div class="eyebrow">02 / CE QUE JE CONÇOIS</div><h2>Une présence digitale<br><em>utile à votre activité.</em></h2></div>
+            <p>Chaque élément doit aider votre visiteur à comprendre votre offre et à savoir quelle action effectuer ensuite.</p>
+          </div>
+          <div class="services-grid">
+            <article class="service-card"><span class="service-number">01</span><div class="service-symbol">▱</div><h3>Sites vitrines</h3><p>Présentez votre entreprise, vos services, votre équipe et vos informations essentielles dans un espace professionnel.</p><span class="service-tag">PRÉSENTER</span></article>
+            <article class="service-card"><span class="service-number">02</span><div class="service-symbol">◎</div><h3>Landing pages</h3><p>Une page ciblée pour présenter une offre, une formation, un produit ou une campagne avec un appel à l’action clair.</p><span class="service-tag">CONVERTIR</span></article>
+            <article class="service-card"><span class="service-number">03</span><div class="service-symbol">↗</div><h3>Parcours de contact</h3><p>WhatsApp, appel, formulaire et localisation organisés pour réduire les étapes entre la découverte et la prise de contact.</p><span class="service-tag">FACILITER</span></article>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- FINAL CTA -->
-    <section class="final-cta container" id="contact">
-      <div class="final-cta-inner">
-        <span class="eyebrow"><i class="fa-solid fa-message"></i> Votre projet commence par une conversation</span>
-        <h2>Vous avez déjà l'activité. Construisons une présence qui lui ressemble.</h2>
-        <p>Décrivez-moi votre activité, votre ville et ce que vous voulez améliorer. Je vous dirai rapidement si le projet correspond à l'offre.</p>
-        <div class="hero-actions center-actions">
-          <a class="btn primary large" data-whatsapp="project" href="https://wa.me/213771021391" target="_blank" rel="noopener"><i class="fa-brands fa-whatsapp"></i> Parler de mon projet</a>
-          <a class="btn secondary large" href="mailto:rebasifils.web@gmail.com">Envoyer un email</a>
+      <section class="section-wrap section-block" id="methode">
+        <div class="section-heading">
+          <div><div class="eyebrow">03 / MÉTHODE</div><h2>Clair dès le départ.<br><em>Cadré jusqu’à la livraison.</em></h2></div>
+          <p>Un processus simple, avec un périmètre défini avant le démarrage et des étapes de validation visibles.</p>
         </div>
-        <div class="final-meta">Formules à partir de 25 000 DA · 50% au démarrage · Révisions selon la formule choisie
+        <div class="process-list">
+          <div class="process-item"><span>01</span><div><h3>Comprendre</h3><p>Votre activité, vos clients, vos objectifs et les informations à présenter.</p></div><b>BRIEF</b></div>
+          <div class="process-item"><span>02</span><div><h3>Structurer</h3><p>Les pages, le contenu et le parcours le plus adapté à votre besoin.</p></div><b>STRUCTURE</b></div>
+          <div class="process-item"><span>03</span><div><h3>Concevoir & développer</h3><p>Design responsive, intégration, fonctionnalités convenues et optimisation technique de base.</p></div><b>PRODUCTION</b></div>
+          <div class="process-item"><span>04</span><div><h3>Tester & livrer</h3><p>Vérification sur mobile et ordinateur, corrections prévues, puis mise en ligne.</p></div><b>LIVRAISON</b></div>
         </div>
-    </section>
-  </main>
+        <div class="timeline-note"><span>⏱</span><p><strong>Délai indicatif : 7 à 10 jours ouvrables</strong> après réception de tous les contenus nécessaires et validation du périmètre.</p></div>
+      </section>
 
-  <a class="mobile-whatsapp" data-whatsapp="qualification" href="https://wa.me/213771021391" target="_blank" rel="noopener" aria-label="Parler de votre projet sur WhatsApp"><i class="fa-brands fa-whatsapp"></i><span>Parler de mon projet</span></a>
+      <section class="pricing-section" id="tarifs">
+        <div class="section-wrap section-block">
+          <div class="section-heading">
+            <div><div class="eyebrow">04 / INVESTISSEMENT</div><h2>Un cadre clair.<br><em>Un prix défini.</em></h2></div>
+            <p>Le tarif dépend du périmètre convenu. Les besoins spécifiques sont discutés et chiffrés avant le démarrage.</p>
+          </div>
+          <div class="pricing-grid">
+            <article class="price-card"><div class="price-top"><span>01 / ESSENTIEL</span><span class="price-dot"></span></div><h3>Essentiel</h3><p class="price-desc">Pour démarrer avec une présence professionnelle simple.</p><div class="price"><strong>25 000</strong><span>DA</span></div><ul><li>Page vitrine structurée</li><li>Design personnalisé</li><li>Adaptation mobile</li><li>WhatsApp & appel direct</li><li>Informations locales</li><li>SEO technique de base</li><li>1 série de révisions</li></ul><a class="price-cta" href="https://wa.me/213771021391?text=Bonjour%20Saber%2C%20je%20souhaite%20discuter%20de%20la%20formule%20Essentiel." target="_blank" rel="noopener">Choisir Essentiel <span>↗</span></a></article>
+            <article class="price-card price-featured"><div class="recommended">LE PLUS POLYVALENT</div><div class="price-top"><span>02 / BUSINESS PRO</span><span class="price-dot"></span></div><h3>Business Pro</h3><p class="price-desc">Pour une activité établie qui veut présenter ses services avec clarté.</p><div class="price"><strong>35 000</strong><span>DA</span></div><ul><li>Site vitrine complet</li><li>Design sur mesure</li><li>Parcours mobile-first</li><li>Présentation des services</li><li>WhatsApp, appel & localisation</li><li>SEO technique & performance de base</li><li>2 séries de révisions</li></ul><a class="price-cta" href="https://wa.me/213771021391?text=Bonjour%20Saber%2C%20je%20souhaite%20discuter%20de%20la%20formule%20Business%20Pro." target="_blank" rel="noopener">Discuter de Business Pro <span>↗</span></a></article>
+            <article class="price-card"><div class="price-top"><span>03 / PREMIUM LOCAL</span><span class="price-dot"></span></div><h3>Premium Local</h3><p class="price-desc">Pour une présentation plus riche et une architecture étendue.</p><div class="price"><strong>55 000</strong><span>DA</span></div><ul><li>Tout le contenu Business Pro</li><li>Pages supplémentaires définies</li><li>Sections adaptées au secteur</li><li>Présentation détaillée des services</li><li>Parcours de contact renforcé</li><li>Configuration technique de base</li><li>2 séries de révisions</li></ul><a class="price-cta" href="https://wa.me/213771021391?text=Bonjour%20Saber%2C%20je%20souhaite%20discuter%20de%20la%20formule%20Premium%20Local." target="_blank" rel="noopener">Discuter de Premium <span>↗</span></a></article>
+          </div>
+          <div class="pricing-conditions"><div><span>01</span><p><strong>50% au démarrage</strong><br>Pour réserver et lancer le projet.</p></div><div><span>02</span><p><strong>50% avant la mise en ligne finale</strong><br>Après validation de la version livrable.</p></div><div><span>03</span><p><strong>Hors périmètre</strong><br>Nom de domaine, hébergement, rédaction complète, e-commerce et fonctions complexes sont chiffrés séparément.</p></div></div>
+        </div>
+      </section>
 
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div><a class="logo" href="#top">Saber<span>.</span></a><p>Sites web professionnels pour entreprises locales.</p></div>
-      <div class="footer-links"><a href="#work">Projets</a><a href="#offer">Offre</a><a href="#process">Process</a><a href="#contact">Contact</a><a href="mailto:rebasifils.web@gmail.com">Email</a></div>
-      <div class="social">
-        <a href="mailto:rebasifils.web@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-        <a href="https://www.instagram.com/rebas_ifils" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://wa.me/213771021391" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
-      </div>
-    </div>
-    <div class="container copyright">© 2026 Saber Slifi — Web Design pour entreprises locales · Algérie</div>
-  </footer>
+      <section class="section-wrap section-block about-section" id="apropos">
+        <div class="about-visual"><div class="about-monogram">S<span>.</span></div><div class="about-caption">SABER SLIFI<br><small>WEB DESIGN & DIGITAL</small></div></div>
+        <div class="about-copy"><div class="eyebrow">05 / À PROPOS</div><h2>Comprendre l’activité<br>avant de <em>dessiner le site.</em></h2><p>Je m’intéresse autant à la façon dont une entreprise fonctionne qu’à son apparence en ligne. Mon approche : comprendre l’essentiel, organiser l’information et construire une expérience claire, rapide et adaptée aux usages réels.</p><div class="about-values"><span><b>01</b> Direct</span><span><b>02</b> Structuré</span><span><b>03</b> Orienté utilisateur</span></div></div>
+      </section>
 
-  <script src="script.js"></script>
+      <section class="contact-section" id="contact">
+        <div class="section-wrap contact-inner">
+          <div class="eyebrow">06 / CONTACT</div>
+          <h2>Votre activité mérite<br>mieux qu’une présence <em>improvisée.</em></h2>
+          <p>Présentez-moi votre activité, votre ville et ce que vous souhaitez améliorer. Nous verrons si je peux vous aider.</p>
+          <div class="contact-actions"><a class="button button-primary" href="https://wa.me/213771021391?text=Bonjour%20Saber%2C%20je%20souhaite%20discuter%20de%20mon%20projet%20web." target="_blank" rel="noopener">Parler de mon projet <span>↗</span></a><a class="contact-email" href="mailto:rebasifils.web@gmail.com">rebasifils.web@gmail.com</a></div>
+          <div class="contact-social"><a href="https://www.instagram.com/rebas_ifils" target="_blank" rel="noopener">Instagram ↗</a><span>ALGER, ALGÉRIE</span></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand" href="#top"><span class="brand-mark">S<span>.</span></span><span class="brand-copy"><strong>SABER SLIFI</strong><small>WEB DESIGN & DIGITAL</small></span></a>
+      <p>Sites web professionnels pour entreprises et activités locales.</p>
+      <span>© <span id="year">2026</span> Saber Slifi. Tous droits réservés.</span>
+      <a class="back-top" href="#top">RETOUR EN HAUT ↑</a>
+    </footer>
+  </div>
 </body>
 </html>
