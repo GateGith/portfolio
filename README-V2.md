@@ -1,24 +1,20 @@
-# Saber. Portfolio V2.1 — Conversion Upgrade
-
-Version orientée vente pour entreprises locales en Algérie.
-
-## Changements principaux
-- Hero reconstruit autour d'un projet réel.
-- Screenshot réel de I Smile Dental Clinic intégré.
-- Case study I Smile avec objectif, approche et fonctionnalités.
-- Bouton "Voir le site réel" fonctionnel.
-- Navigation et CTA WhatsApp centralisés dans `script.js`.
-- Photo Saber rendue circulaire avec animation légère et indicateur de présence.
-- Responsive renforcé desktop / tablette / mobile.
-- Hiérarchie orientée conversion : preuve → valeur → offre → process → prix → qualification → CTA.
-- Suppression des liens de démonstration inutiles ou cassés.
-
-## Structure
-- `index.html` — page principale
-- `style.css` — design complet
-- `script.js` — interactions, scroll progress et WhatsApp
-- `images/i-smile-hero.jpg` — screenshot réel fourni pour le projet I Smile
-- autres images — projets du portfolio
-
-## Publication GitHub Pages
-Les fichiers `index.html`, `style.css`, `script.js` et le dossier `images` doivent rester au même niveau dans le dépôt.
+Portfolio Saber Slifi — Version 3
+Fichiers
+index.html : contenu et structure.
+style.css : identité visuelle et responsive.
+script.js : menu mobile et année automatique.
+Mise à jour sur GitHub depuis Android
+Téléchargez et décompressez le ZIP.
+Ouvrez le dépôt GitHub du portfolio.
+Remplacez le contenu de index.html, style.css et script.js par les fichiers de cette version.
+Vérifiez que les trois fichiers sont à la racine du dépôt, au même niveau.
+Enregistrez les modifications (Commit changes).
+Attendez le déploiement GitHub Pages, puis ouvrez https://gategith.github.io/portfolio/.
+Points à vérifier avant publication
+Les quatre premières cartes sont des concepts anonymisés, pas des missions client.
+ARC161 est indiqué comme projet personnel.
+Aucun nom, logo, témoignage ou résultat commercial d'un autre propriétaire n'est revendiqué.
+Vérifiez les coordonnées de contact avant publication.
+Le site utilise Google Fonts en option ; en cas d'absence de réseau, les polices système prennent le relais.
+Important
+Cette version ne contient aucun lien ni visuel de I Smile Dental Clinic. Les noms et identités des quatre activités servant de base aux concepts ont été neutralisés. Ne réintroduisez pas leurs logos, captures identifiantes ou liens de démonstration sans autorisation.
